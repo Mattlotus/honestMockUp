@@ -36,6 +36,10 @@ body{
     align-items: center;
 
  }
+  .search , .subs{
+    /* border: solid red; */
+    margin-left: 8px;
+ }
  .headerContainer > * {
     /* border: solid green; */
 
@@ -59,6 +63,8 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    margin: -18px 0;
+    font-weight: bold;
 
  }
  .navContainer > * {
@@ -68,6 +74,8 @@ body{
 .mini{
     /* border: solid green; */
     display: flex; 
+    margin-top: -8px;
+    font-size: 10px;
 }
 .mini > * {
     /* border: solid purple; */
@@ -110,7 +118,7 @@ h1{
 }
 .photoInfo p {
     opacity: .7;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0;
 }
 .photoInfo p:hover{
@@ -118,7 +126,7 @@ h1{
 }
 /* buttonContainer */
 .buttonContainer{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
     margin: 0 20px;
     margin-top: 30px;
@@ -127,7 +135,7 @@ h1{
 .buttonContainer button {
     background-color: white;
     font-weight: bold;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .filter{
     width: 150px;
@@ -142,11 +150,11 @@ h1{
 }
 /* imageContainer */
 .imageContainer{
-    border: solid red;
+    /* border: solid red; */
 
 }
 .imageRow{
-    border: solid blue;
+    /* border: solid blue; */
     margin: 10px 0 ;
     display: flex;
     justify-content: space-evenly;
@@ -155,7 +163,7 @@ h1{
     width: 190px;
 }
 .imageInfo{
-    border: solid black;
+    /* border: solid black; */
      text-align: center;
      
 }
@@ -188,7 +196,7 @@ h2{
 }
 /* wdith adjustment */
 .paragraph , .optionsContainer , .mediaContainer , .BBB , .footer , .locator{ 
-    /* border: solid red; */
+    border: solid red;
     margin: 0 15px;
 }
 /* mediaContainer */
@@ -236,6 +244,39 @@ h2{
 .terms span{
     text-decoration: underline;
 }
+/* sign up */
+.signUpTwo{
+    /* border: solid blue; */
+    width: 100%;
+    height: 6vh;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+    margin: 30px 0;
+}
+/* store */
+.locator{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+/* rights */
+.rights{ 
+    background-color: black;
+    color: white;
+    height: 9vh;
+    padding: 1.5px;
+    text-align: center;
+    font-size: .8em;
+    
+    
+
+}
+
+
+
 
 
 
