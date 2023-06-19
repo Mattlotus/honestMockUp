@@ -169,3 +169,77 @@ h1{
     opacity: .7;
 
 }
+/* paragraphContainer */
+h2{
+    /* text-align: center; */
+}
+.paragraph{
+    text-align: center;
+}
+.paragraph span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* optionsContainer */
+.optionsContainer div{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;   
+}
+/* wdith adjustment */
+.paragraph , .optionsContainer , .mediaContainer , .BBB , .footer , .locator{ 
+    /* border: solid red; */
+    margin: 0 15px;
+}
+/* mediaContainer */
+.mediaContainer{
+    /* border: solid red; */
+}
+.mediaContainer p{
+    /* border: solid rgb(133, 85, 85); */
+    display: flex;
+    align-items: center;
+    color: rgb(114, 112, 112);
+}
+/* bbbImg */
+.BBB{
+    margin-top: 20px ;
+}
+
+/*choices  */
+.choices{
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 53%;
+}
+.choices div{
+    /* border: solid rgb(98, 82, 82); */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: 28%; */   
+}
+
+.email{
+    /* border: solid red; */
+    height: 4vh;
+    width: 400px;
+    margin: 18px 0;
+}
+.terms{
+    /* border: solid red; */
+    display: flex;
+    align-items:baseline;
+    font-size: smaller;
+
+}
+.terms span{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
