@@ -196,7 +196,7 @@ h2{
 }
 /* wdith adjustment */
 .paragraph , .optionsContainer , .mediaContainer , .BBB , .footer , .locator{ 
-    border: solid red;
+    /* border: solid red; */
     margin: 0 15px;
 }
 /* mediaContainer */
