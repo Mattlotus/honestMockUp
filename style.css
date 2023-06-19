@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+}
+
+
+/* adContainer */
+.adContainer{
+    /* border:  2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 214, 202);
+    height: 30px;
+}
+ .adContainer > * {
+    font-weight: bold;
+ }
+
+ .adContainer a {
+    font-weight: normal;
+ }
+
+ .text {
+    /* margin: 10px; */
+    margin: 0px 10px;
+    /* margin: 10px 4px 3px 0px; */
+    /* padding: ; */
+ }
+
+
+ /* headerContainer */
+ .headerContainer{
+    /* border: solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ .headerContainer > * {
+    /* border: solid green; */
+
+
+ }
+ .logo{
+    height: 30px;
+ }
+ .rightBar{
+    display: flex;
+    
+
+ }
+ .shop{
+    display: flex;
+ }
+ /* navContainer */
+ .navContainer{
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+ }
+ .navContainer > * {
+    /* border: 2px solid blue; */
+ }
+/* mini */
+.mini{
+    /* border: solid green; */
+    display: flex; 
+}
+.mini > * {
+    /* border: solid purple; */
+    margin: 10px;
+}
+
+
+/* h1 */
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*  photoContainer */
+.photoContainer{
+    /* border: solid green; */
+      
+}
+.photoRow{
+    /* border: solid blue; */
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.photoContainer img {
+    width: 200px;
+    height: 200px;
+}
+.photoInfo{
+    /* border:  2px solid red; */
+    margin: 0 8px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.photoInfo:hover {
+    cursor: pointer;
+
+}
+.photoInfo p {
+    opacity: .7;
+    border: 2px solid red;
+    margin: 0;
+}
+.photoInfo p:hover{
+    opacity: 1;
+}
+/* buttonContainer */
+.buttonContainer{
+    border: 2px solid purple;
+    display: flex;
+    margin: 0 20px;
+    margin-top: 30px;
+    
+}
+.buttonContainer button {
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.filter{
+    width: 150px;
+    height: 50px;
+}
+.feature{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8px;
+}
+/* imageContainer */
+.imageContainer{
+    border: solid red;
+
+}
+.imageRow{
+    border: solid blue;
+    margin: 10px 0 ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imageRow img {
+    width: 190px;
+}
+.imageInfo{
+    border: solid black;
+     text-align: center;
+     
+}
+.money{
+    font-weight: bold;
+}
+.imageInfo * {
+    margin: 3px ;
+}
+.imageTitle , .prints {
+    opacity: .7;
+
+}
